@@ -1,0 +1,33 @@
+/* IE 10+ FIXES */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	selector{
+		css ...
+	}
+}
+
+/* Safari 10.1+ FIXES */
+_:default:not(:root:root), selector { 
+	css ...
+} 
+
+/* Portrait iPad */
+@media (max-width: 991px){
+	_:default:not(:root:root), selector {
+	    css ...
+	}
+}
+
+/* iPhone */
+@media (max-width: 320px){
+	_:default:not(:root:root), selector {
+	    css ...
+	}
+}
+
+/* Chrome 29+ Mobile devices*/
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+	selector{
+		css ...
+	}
+}
+
